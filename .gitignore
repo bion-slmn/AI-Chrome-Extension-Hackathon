@@ -1,5 +1,5 @@
 # Logs
-logs
+logs/
 *.log
 npm-debug.log*
 yarn-debug.log*
@@ -7,18 +7,25 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
+# Node modules, build outputs, and cache
+node_modules/
+dist/
+build/
+cache/
+*.log
+*.tmp*
 
-# Editor directories and files
-.vscode/*
+# IDE and editor files
+.vscode/
 !.vscode/extensions.json
-.idea
+.idea/
 .DS_Store
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+
+# TypeScript-specific
+*.tsbuildinfo
+**/tsc.config.json

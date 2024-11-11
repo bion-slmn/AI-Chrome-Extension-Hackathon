@@ -1,0 +1,9 @@
+{
+	"manifest_version": 3,
+	"name": "ai-chrome-extension-hackathon",
+	"version": "1.0",
+	"description": "Resume wizard",
+	"action": {
+		"default_popup": "index.html"
+	}
+}
