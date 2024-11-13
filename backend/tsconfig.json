@@ -1,0 +1,19 @@
+{
+	"compilerOptions": {
+		"module": "commonjs",
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"esModuleInterop": true,
+		"allowSyntheticDefaultImports": true,
+		"target": "es6",
+		"noImplicitAny": true,
+		"moduleResolution": "node",
+		"sourceMap": true,
+		"plugins": [{}],
+		"outDir": "./dist",
+		"rootDir": "./"
+	},
+	"include": ["src/**/*", "src/**/*.mjs"],
+	"baseUrl": ".",
+	"exclude": ["node_modules", "dist"]
+}
